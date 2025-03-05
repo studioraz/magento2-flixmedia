@@ -4,13 +4,13 @@
  * See LICENSE.txt for license details.
  */
 
-namespace SR\Flixmedia\src\Block;
+namespace SR\Flixmedia\Block;
 
 use Magento\Catalog\Model\Product;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\View\Element\Template;
 use Magento\Store\Model\ScopeInterface;
-use SR\Flixmedia\src\Model\Data\ProductAttributes;
+use SR\Flixmedia\Model\Data\ProductAttributes;
 
 /**
  * Class Flixmedia

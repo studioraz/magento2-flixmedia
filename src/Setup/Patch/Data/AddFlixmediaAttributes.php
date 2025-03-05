@@ -4,7 +4,7 @@
  * See LICENSE.txt for license details.
  */
 
-namespace SR\Flixmedia\src\Setup\Patch\Data;
+namespace SR\Flixmedia\Setup\Patch\Data;
 
 use Magento\Catalog\Model\Product;
 use Magento\Eav\Model\Entity\Attribute\ScopedAttributeInterface;
@@ -12,7 +12,7 @@ use Magento\Eav\Setup\EavSetup;
 use Magento\Eav\Setup\EavSetupFactory;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
-use SR\Flixmedia\src\Model\Data\ProductAttributes;
+use SR\Flixmedia\Model\Data\ProductAttributes;
 
 class AddFlixmediaAttributes implements DataPatchInterface
 {

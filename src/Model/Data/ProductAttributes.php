@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace SR\Flixmedia\src\Model\Data;
+namespace SR\Flixmedia\Model\Data;
 
 class ProductAttributes
 {
