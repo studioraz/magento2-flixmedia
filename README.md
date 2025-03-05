@@ -7,7 +7,7 @@ This Magento 2 module integrates Flixmedia services into your store, enabling pr
 ### Using Composer
 
 ```
-composer require magepal/magento2-guest-to-customer
+composer require studioraz/magento2-flixmedia
 ```
 
 ```sh
