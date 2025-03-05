@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp/etc/csp_whitelist.xsd">
+    <policies>
+        <!-- Script Sources -->
+        <policy id="script-src">
+            <values>
+                <value id="flixmedia_standard_syndication" type="host">media.flixcar.com</value>
+                <value id="flixmedia_standard_syndication_2" type="host">media.flixfacts.com</value>
+                <value id="flixmedia_standard_syndication_3" type="host">*.flix360.io</value>
+                <value id="flixmedia_standard_syndication_4" type="host">*.flix360.com</value>
+                <value id="flixmedia_shop_syndication" type="host">media.flixsyndication.net</value>
+                <value id="flixmedia_image_optimization" type="host">syndication.flix360.com</value>
+                <value id="flixmedia_video_syndication" type="host">content.jwplatform.com</value>
+                <value id="flixmedia_video_syndication_2" type="host">assets-jpcust.jwpsrv.com</value>
+                <value id="flixmedia_video_syndication_3" type="host">ssl.p.jwpcdn.com</value>
+                <value id="flixmedia_ar_syndication" type="host">d3nkfb7815bs43.cloudfront.net</value>
+                <value id="flixmedia_ar_syndication_2" type="host">d2m3ikv8mpgiy8.cloudfront.net</value>
+                <value id="flixmedia_ar_syndication_3" type="host">d3np41mctoibfu.cloudfront.net</value>
+                <value id="flixmedia_ar_syndication_4" type="host">media.pointandplace.com</value>
+                <value id="flixmedia_ar_syndication_5" type="host">player.pointandplace.com</value>
+                <value id="flixmedia_ar_syndication_6" type="host">t.pointandplace.com</value>
+                <value id="flixmedia_ar_syndication_7" type="host">intent://arvr.google.com</value>
+                <value id="flixmedia_staging_alpha" type="host">delivery-alpha.flix360.io</value>
+                <value id="flixmedia_staging_beta" type="host">delivery-beta.flix360.io</value>
+            </values>
+        </policy>
+
+        <!-- Frame Sources -->
+        <policy id="frame-src">
+            <values>
+                <value id="flixmedia_video_syndication" type="host">content.jwplatform.com</value>
+                <value id="flixmedia_video_syndication_2" type="host">assets-jpcust.jwpsrv.com</value>
+                <value id="flixmedia_video_syndication_3" type="host">ssl.p.jwpcdn.com</value>
+                <value id="flixmedia_ar_syndication" type="host">media.pointandplace.com</value>
+                <value id="flixmedia_ar_syndication_2" type="host">player.pointandplace.com</value>
+                <value id="flixmedia_ar_syndication_3" type="host">t.pointandplace.com</value>
+                <value id="flixmedia_ar_syndication_4" type="host">intent://arvr.google.com</value>
+                <value id="flixmedia_media_flixcar" type="host">media.flixcar.com</value>
+            </values>
+        </policy>
+
+        <!-- Connect Sources -->
+        <policy id="connect-src">
+            <values>
+                <value id="flixmedia_standard_syndication" type="host">media.flixcar.com</value>
+                <value id="flixmedia_standard_syndication_2" type="host">media.flixfacts.com</value>
+                <value id="flixmedia_standard_syndication_3" type="host">*.flix360.io</value>
+                <value id="flixmedia_standard_syndication_4" type="host">*.flix360.com</value>
+                <value id="flixmedia_shop_syndication" type="host">media.flixsyndication.net</value>
+                <value id="flixmedia_staging_alpha" type="host">delivery-alpha.flix360.io</value>
+                <value id="flixmedia_staging_beta" type="host">delivery-beta.flix360.io</value>
+            </values>
+        </policy>
+
+        <!-- Form Actions -->
+        <policy id="form-action">
+            <values>
+                <value id="flixmedia_standard_syndication" type="host">media.flixcar.com</value>
+                <value id="flixmedia_standard_syndication_2" type="host">media.flixfacts.com</value>
+                <value id="flixmedia_standard_syndication_3" type="host">*.flix360.io</value>
+                <value id="flixmedia_standard_syndication_4" type="host">*.flix360.com</value>
+            </values>
+        </policy>
+
+        <!-- Image Sources -->
+        <policy id="img-src">
+            <values>
+                <value id="flixmedia_standard_syndication" type="host">media.flixcar.com</value>
+                <value id="flixmedia_standard_syndication_2" type="host">media.flixfacts.com</value>
+                <value id="flixmedia_standard_syndication_3" type="host">*.flix360.io</value>
+                <value id="flixmedia_standard_syndication_4" type="host">*.flix360.com</value>
+                <value id="flixmedia_shop_syndication" type="host">media.flixsyndication.net</value>
+                <value id="flixmedia_ar_syndication" type="host">d3nkfb7815bs43.cloudfront.net</value>
+                <value id="flixmedia_ar_syndication_2" type="host">d2m3ikv8mpgiy8.cloudfront.net</value>
+                <value id="flixmedia_ar_syndication_3" type="host">d3np41mctoibfu.cloudfront.net</value>
+                <value id="flixmedia_ar_syndication_4" type="host">media.pointandplace.com</value>
+            </values>
+        </policy>
+
+        <!-- Style Sources -->
+        <policy id="style-src">
+            <values>
+                <value id="flixmedia_standard_syndication" type="host">media.flixcar.com</value>
+                <value id="flixmedia_standard_syndication_2" type="host">media.flixfacts.com</value>
+                <value id="flixmedia_standard_syndication_3" type="host">*.flix360.io</value>
+                <value id="flixmedia_standard_syndication_4" type="host">*.flix360.com</value>
+            </values>
+        </policy>
+
+        <!-- Media Sources -->
+        <policy id="media-src">
+            <values>
+                <value id="flixmedia_video_syndication" type="host">content.jwplatform.com</value>
+                <value id="flixmedia_video_syndication_2" type="host">assets-jpcust.jwpsrv.com</value>
+                <value id="flixmedia_video_syndication_3" type="host">ssl.p.jwpcdn.com</value>
+                <value id="flixmedia_media_flixcar" type="host">media.flixcar.com</value>
+            </values>
+        </policy>
+
+        <policy id="font-src">
+            <values>
+                <value id="flixmedia_media_flixcar" type="host">media.flixcar.com</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>

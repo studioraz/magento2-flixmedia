@@ -1,0 +1,33 @@
+{
+    "name": "studioraz/magento2-flixmedia",
+    "description": "Flixmedia integration for Magento",
+    "type": "magento2-module",
+    "prefer-stable": true,
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "magento/framework": "*",
+        "studioraz/magento2-base" : "*"
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "SR\\Flixmedia\\": "src"
+        }
+    },
+    "support": {
+        "email": "support@studioraz.co.il"
+    },
+    "authors": [
+        {
+            "name": "Studio Raz",
+            "email": "info@studioraz.co.il",
+            "homepage": "https://www.studio-raz.com",
+            "role": "Developer"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+<?php
+/**
+ * @var \SR\Flixmedia\src\Block\Flixmedia $block
+ */
+?>
+<?php if ($block->canShow()): ?>
+
+    <div id="flix-minisite"></div>
+    <div id="flix-inpage" dir="rtl"></div>
+    <script type="text/javascript"
+        src="//media.flixfacts.com/js/loader.js"
+        data-flix-distributor="<?= $block->getFlixDistributor(); ?>"
+        data-flix-language="il"
+        data-flix-brand="<?= $block->getFlixmediaBrand(); ?>"
+        data-flix-mpn="<?= $block->getFlixmediaMpn() ?>"
+        data-flix-ean="<?= $block->getFlixmediaEan() ?>"
+        data-flix-sku=""
+        data-flix-button="flix-minisite"
+        data-flix-inpage="flix-inpage"
+        data-flix-button-image=""
+        data-flix-price=""
+        data-flix-fallback-language=""
+        async>
+    </script>
+<?php endif; ?>
