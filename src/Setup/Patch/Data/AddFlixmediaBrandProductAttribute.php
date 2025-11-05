@@ -63,7 +63,7 @@ class AddFlixmediaBrandProductAttribute implements DataPatchInterface
                 'required' => false,
                 'input' => 'select',
                 'is_filterable_in_grid' => true,
-                'user_defined' => false,
+                'user_defined' => true,
                 'sort_order' => 10,
                 'option' => [
                     'value' => [
